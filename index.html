@@ -1,52 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloobtech - Official Publication & Research Hub</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.7; color: #0A0A0A; max-width: 850px; margin: 0 auto; padding: 40px 20px; background-color: #f8fafc; }
-        .card { background: #ffffff; padding: 45px; border-radius: 14px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
-        h1 { color: #137FAA; font-size: 2.5rem; margin-top: 0; margin-bottom: 15px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
-        h2 { color: #137FAA; font-size: 1.5rem; margin-top: 35px; margin-bottom: 15px; }
-        p { font-size: 1.05rem; margin-bottom: 20px; color: #0A0A0A; }
-        ul { padding-left: 20px; margin-bottom: 25px; }
-        li { margin-bottom: 12px; font-size: 1.05rem; color: #0A0A0A; }
-        a.inline-link { color: #137FAA; text-decoration: none; font-weight: 600; transition: color 0.2s; }
-        a.inline-link:hover { color: #0A0A0A; text-decoration: underline; }
-        .btn-container { margin-top: 35px; text-align: center; }
-        .btn { display: inline-block; background-color: #137FAA; color: #ffffff; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 1.05rem; transition: background-color 0.2s; }
-        .btn:hover { background-color: #0A0A0A; }
-    </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="google-site-verification" content="IUXb_7eZnqvq4kvxFMviMCxkZv89qezt2NxulB4qLmw"/>
+  <meta name="yandex-verification" content="44af4c48be3d420e"/>
+
+  <title>About Bloobtech</title>
+
+  <!-- Import Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#137faa"/>
+  <meta name="msapplication-navbutton-color" content="#137faa"/>
+
+  <!-- Social Media & OpenGraph -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="og:title" content="About Bloobtech"/>
+  <meta property="twitter:title" content="About Bloobtech"/>
+  <meta property="og:url" content="https://www.bloobtech.my.id/"/>
+  <meta property="twitter:url" content="https://www.bloobtech.my.id/"/>
+
+  <!-- STRUCTURED DATA: JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.bloobtech.my.id/#organization",
+        "name": "Bloobtech",
+        "url": "https://www.bloobtech.my.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiUtRgtWsYbNk4SMmCpev4f1nbnPpnbLl_TyDz7PVwryYZknUe0OCLJPmT1VNplb4V1juJnb7b_-A66M4de5RFTEkzjLEhpYO5CekMuvdNPd5OFX3aCrJ94G2WxETHg_P4yKLhbvCE_MXqeLSms7tjB8ChyphenhyphenfmtX8rMlC0CPhWn1hSKsu8/s1600/bloobtech.webp"
+        },
+        "sameAs": [
+          "https://www.bloobtech.my.id"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.bloobtech.my.id/#website",
+        "url": "https://www.bloobtech.my.id/",
+        "name": "Bloobtech",
+        "publisher": {
+          "@id": "https://www.bloobtech.my.id/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.bloobtech.my.id/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.bloobtech.my.id/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body { 
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+      line-height: 1.7; 
+      color: #0A0A0A; 
+      max-width: 850px; 
+      margin: 0 auto; 
+      padding: 40px 20px; 
+      background-color: #f8fafc; 
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    .card { 
+      background: #ffffff; 
+      padding: 45px; 
+      border-radius: 14px; 
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); 
+      border: 1px solid #e2e8f0; 
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .site-logo {
+      max-width: 140px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .site-logo:hover {
+      transform: scale(1.05);
+    }
+
+    h1 { 
+      color: #137FAA; 
+      font-size: 2.5rem; 
+      font-weight: 700; 
+      margin-top: 0; 
+      margin-bottom: 15px; 
+      border-bottom: 2px solid #e2e8f0; 
+      padding-bottom: 10px; 
+      text-align: center;
+    }
+
+    h1 a {
+      color: #137FAA;
+      font-weight: 700;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    h1 a:hover {
+      color: #0A0A0A;
+      text-decoration: underline;
+    }
+
+    h2 { 
+      color: #137FAA; 
+      font-size: 1.5rem; 
+      font-weight: 600;
+      margin-top: 35px; 
+      margin-bottom: 15px; 
+    }
+
+    p { 
+      font-size: 1.02rem; 
+      margin-bottom: 20px; 
+      color: #0A0A0A; 
+    }
+
+    ul { 
+      padding-left: 20px; 
+      margin-bottom: 25px; 
+    }
+
+    li { 
+      margin-bottom: 12px; 
+      font-size: 1.02rem; 
+      color: #0A0A0A; 
+    }
+
+    a.inline-link { 
+      color: #137FAA; 
+      text-decoration: none; 
+      font-weight: 600; 
+      transition: color 0.2s ease; 
+    }
+
+    a.inline-link:hover { 
+      color: #0A0A0A; 
+      text-decoration: underline; 
+    }
+
+    .btn-container { 
+      margin-top: 35px; 
+      text-align: center; 
+    }
+
+    .btn { 
+      display: inline-block; 
+      background-color: #137FAA; 
+      color: #ffffff; 
+      text-decoration: none; 
+      padding: 14px 28px; 
+      border-radius: 8px; 
+      font-weight: 600; 
+      font-size: 1.05rem; 
+      transition: all 0.3s ease; 
+    }
+
+    .btn:hover { 
+      background-color: #0A0A0A; 
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(10, 10, 10, 0.3);
+    }
+
+    .copyright {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      body { 
+        padding: 15px 10px; 
+      }
+      .card { 
+        padding: 20px 16px; 
+        border-radius: 10px; 
+      }
+      .logo-container {
+        margin-bottom: 15px;
+      }
+      .site-logo {
+        max-width: 100px;
+      }
+      h1 { 
+        font-size: 1.75rem; 
+        margin-bottom: 12px; 
+        padding-bottom: 8px; 
+      }
+      h2 { 
+        font-size: 1.25rem; 
+        margin-top: 25px; 
+        margin-bottom: 12px; 
+      }
+      p, li { 
+        font-size: 0.95rem; 
+        line-height: 1.6; 
+      }
+      ul { 
+        padding-left: 18px; 
+      }
+      .btn { 
+        display: block;
+        width: 100%; 
+        padding: 12px 15px; 
+        font-size: 0.95rem; 
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Bloobtech.</h1>
-        <p>Welcome to <a href="https://www.bloobtech.my.id" class="inline-link">Bloobtech</a>, your premier digital publication dedicated to delivering insightful, accurate, and forward-looking content at the intersection of Technology, Artificial Intelligence, Business, Finance, and Cryptocurrency. Our mission is to empower professionals, entrepreneurs, investors, and tech enthusiasts with actionable intelligence to navigate the rapidly evolving global economy.</p>
 
-        <h2>Our Core Focus Areas</h2>
-        <p>At <a href="https://www.bloobtech.my.id" class="inline-link">Bloobtech</a>, we break down complex topics into comprehensive guides, analysis, and news. We specialize in five core pillars:</p>
-        <ul>
-            <li><strong><a href="https://www.bloobtech.my.id/search/label/Technology%20%26%20Ai" class="inline-link">Artificial Intelligence (AI)</a>:</strong> In-depth coverage of generative AI, machine learning breakthroughs, enterprise AI tools, prompt engineering, and the ethical implications of autonomous technology.</li>
-            <li><strong><a href="https://www.bloobtech.my.id/search/label/Technology%20%26%20Ai" class="inline-link">Technology</a>:</strong> Emerging tech trends, cybersecurity developments, software innovations, cloud computing, and hardware reviews shaping the digital era.</li>
-            <li><strong><a href="https://www.bloobtech.my.id/search/label/Business%20%26%20Finance" class="inline-link">Business</a>:</strong> Modern business strategies, startup ecosystems, digital transformation, e-commerce growth, and corporate leadership tactics.</li>
-            <li><strong><a href="https://www.bloobtech.my.id/search/label/Business%20%26%20Finance" class="inline-link">Finance</a>:</strong> Financial technology (FinTech), market analysis, personal finance management, investment strategies, enterprise valuation, and macroeconomics.</li>
-            <li><strong><a href="https://www.bloobtech.my.id/search/label/Cryptocurrency" class="inline-link">Cryptocurrency & Web3</a>:</strong> Blockchain technology, crypto market trends, Decentralized Finance (DeFi), digital assets, smart contracts, and Web3 innovations.</li>
-        </ul>
-
-        <h2>Our Mission & Vision</h2>
-        <p>In an era overwhelmed by fast-paced information, Bloobtech strives to be a trusted source of truth and analytical clarity. We believe that understanding artificial intelligence, modern financial tools, and digital asset markets is no longer optional—it is essential for sustainable business growth and individual financial empowerment.</p>
-        <p>Our vision is to build a global community of forward-thinkers who leverage cutting-edge technology and smart financial strategies to build scalable businesses and achieve financial independence.</p>
-
-        <h2>Why Trust Bloobtech?</h2>
-        <p>Every article published on Bloobtech undergoes meticulous research, fact-checking, and editorial review. We aim to present objective analysis free from sensationalism, ensuring our readers receive reliable data they can apply directly to their careers, investments, and business operations.</p>
-
-        <h2>Get in Touch</h2>
-        <p>We are always eager to connect with our readers, industry leaders, and potential partners. If you have questions, feedback, media inquiries, or article suggestions, please reach out through our Contact Us page or email us directly at <a href="mailto:contact@bloobtech.my.id" class="inline-link">contact@bloobtech.my.id</a>.</p>
-
-        <div class="btn-container">
-            <a href="https://www.bloobtech.my.id" class="btn">Visit Bloobtech Main Site &rarr;</a>
-        </div>
+  <div class="card">
+    <div class="logo-container">
+      <a href="https://www.bloobtech.my.id" target="_blank" rel="noopener">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiUtRgtWsYbNk4SMmCpev4f1nbnPpnbLl_TyDz7PVwryYZknUe0OCLJPmT1VNplb4V1juJnb7b_-A66M4de5RFTEkzjLEhpYO5CekMuvdNPd5OFX3aCrJ94G2WxETHg_P4yKLhbvCE_MXqeLSms7tjB8ChyphenhyphenfmtX8rMlC0CPhWn1hSKsu8/s1600/bloobtech.webp" class="site-logo" alt="Bloobtech Logo">
+      </a>
     </div>
+
+    <h1><a href="https://www.bloobtech.my.id" target="_blank" rel="noopener">About Bloobtech</a></h1>
+    <p>Welcome to <a class="inline-link" href="https://www.bloobtech.my.id" target="_blank" rel="noopener">Bloobtech</a>, your premier digital publication dedicated to delivering insightful, accurate, and forward-looking content at the intersection of Technology, Artificial Intelligence, Business, Finance, and Cryptocurrency. Our mission is to empower professionals, entrepreneurs, investors, and tech enthusiasts with actionable intelligence to navigate the rapidly evolving global economy.</p>
+
+    <h2>Our Core Focus Areas</h2>
+    <p>At <a class="inline-link" href="https://www.bloobtech.my.id" target="_blank" rel="noopener">Bloobtech</a>, we break down complex topics into comprehensive guides, analysis, and news. We specialize in five core pillars:</p>
+    <ul>
+      <li><strong><a class="inline-link" href="https://www.bloobtech.my.id/search/label/Technology%20%26%20Ai" target="_blank" rel="noopener">Artificial Intelligence (AI)</a>:</strong> In-depth coverage of generative AI, machine learning breakthroughs, enterprise AI tools, prompt engineering, and the ethical implications of autonomous technology.</li>
+      <li><strong><a class="inline-link" href="https://www.bloobtech.my.id/search/label/Technology%20%26%20Ai" target="_blank" rel="noopener">Technology</a>:</strong> Emerging tech trends, cybersecurity developments, software innovations, cloud computing, and hardware reviews shaping the digital era.</li>
+      <li><strong><a class="inline-link" href="https://www.bloobtech.my.id/search/label/Business%20%26%20Finance" target="_blank" rel="noopener">Business</a>:</strong> Modern business strategies, startup ecosystems, digital transformation, e-commerce growth, and corporate leadership tactics.</li>
+      <li><strong><a class="inline-link" href="https://www.bloobtech.my.id/search/label/Business%20%26%20Finance" target="_blank" rel="noopener">Finance</a>:</strong> Financial technology (FinTech), market analysis, personal finance management, investment strategies, enterprise valuation, and macroeconomics.</li>
+      <li><strong><a class="inline-link" href="https://www.bloobtech.my.id/search/label/Cryptocurrency" target="_blank" rel="noopener">Cryptocurrency &amp; Web3</a>:</strong> Blockchain technology, crypto market trends, Decentralized Finance (DeFi), digital assets, smart contracts, and Web3 innovations.</li>
+    </ul>
+
+    <h2>Our Mission &amp; Vision</h2>
+    <p>In an era overwhelmed by fast-paced information, Bloobtech strives to be a trusted source of truth and analytical clarity. We believe that understanding artificial intelligence, modern financial tools, and digital asset markets is no longer optional—it is essential for sustainable business growth and individual financial empowerment.</p>
+    <p>Our vision is to build a global community of forward-thinkers who leverage cutting-edge technology and smart financial strategies to build scalable businesses and achieve financial independence.</p>
+
+    <h2>Why Trust Bloobtech?</h2>
+    <p>Every article published on Bloobtech undergoes meticulous research, fact-checking, and editorial review. We aim to present objective analysis free from sensationalism, ensuring our readers receive reliable data they can apply directly to their careers, investments, and business operations.</p>
+
+    <h2>Get in Touch</h2>
+    <p>We are always eager to connect with our readers, industry leaders, and potential partners. If you have questions, feedback, media inquiries, or article suggestions, please reach out through our Contact Us page or email us directly at <a class="inline-link" href="mailto:contact@bloobtech.my.id" target="_blank" rel="noopener">contact@bloobtech.my.id</a>.</p>
+
+    <div class="btn-container">
+      <a class="btn" href="https://www.bloobtech.my.id" target="_blank" rel="noopener">Visit Bloobtech Main Site &#8594;</a>
+    </div>
+    <div class="copyright">
+      &#169; 2026 - Bloobtech. All Rights Reserved.
+    </div>
+  </div>
+
 </body>
 </html>
